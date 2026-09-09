@@ -1,0 +1,1102 @@
+{
+  "1": {
+    "objective": "To simulate and analyze the transient and steady-state response of RLC circuits under AC excitation.",
+    "q": [
+      {
+        "q": "What happens to the current in a purely inductive circuit?",
+        "opts": [
+          "Leads voltage by 90°",
+          "Lags voltage by 90°",
+          "In phase",
+          "Lags by 45°"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Resonance in an RLC series circuit occurs when:",
+        "opts": [
+          "XL > XC",
+          "XL < XC",
+          "XL = XC",
+          "R = 0"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "The quality factor (Q) of a resonant circuit is defined as:",
+        "opts": [
+          "Ratio of R to Z",
+          "Ratio of reactive power to active power",
+          "Ratio of V to I",
+          "Inverse of frequency"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "At resonance, the impedance of a series RLC circuit is:",
+        "opts": [
+          "Maximum",
+          "Minimum (equal to R)",
+          "Zero",
+          "Infinity"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which component dissipates active power?",
+        "opts": [
+          "Inductor",
+          "Capacitor",
+          "Resistor",
+          "All of them"
+        ],
+        "ans": 2
+      }
+    ]
+  },
+  "2": {
+    "objective": "To analyze a three-phase power system and compare Star and Delta configurations.",
+    "q": [
+      {
+        "q": "In a balanced Star (Y) connected system, the line voltage is:",
+        "opts": [
+          "Equal to phase voltage",
+          "√3 times phase voltage",
+          "1/√3 times phase voltage",
+          "3 times phase voltage"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "In a Delta (Δ) connected system, the line current is:",
+        "opts": [
+          "Equal to phase current",
+          "√3 times phase current",
+          "Equal to line voltage",
+          "Zero"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "What is the phase angle difference between the three phases?",
+        "opts": [
+          "90 degrees",
+          "120 degrees",
+          "180 degrees",
+          "360 degrees"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Total active power in a balanced 3-phase system is given by:",
+        "opts": [
+          "√3 * VL * IL * cos(φ)",
+          "3 * VL * IL * cos(φ)",
+          "VL * IL * sin(φ)",
+          "√3 * Vph * Iph"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Which connection requires a neutral wire for unbalanced loads?",
+        "opts": [
+          "Delta",
+          "Star",
+          "Both",
+          "Neither"
+        ],
+        "ans": 1
+      }
+    ]
+  },
+  "3": {
+    "objective": "To simulate a single-phase transformer and study its open-circuit and short-circuit characteristics.",
+    "q": [
+      {
+        "q": "The core losses of a transformer are determined by:",
+        "opts": [
+          "Short Circuit Test",
+          "Open Circuit Test",
+          "Load Test",
+          "Polarity Test"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Copper losses in a transformer depend on:",
+        "opts": [
+          "Voltage",
+          "Frequency",
+          "Current",
+          "Core material"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "If the number of turns in the secondary is greater than the primary, it is a:",
+        "opts": [
+          "Step-down transformer",
+          "Step-up transformer",
+          "Isolation transformer",
+          "Auto-transformer"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Transformer efficiency is maximum when:",
+        "opts": [
+          "Copper loss = 0",
+          "Core loss = 0",
+          "Copper loss = Core loss",
+          "Load is zero"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Which flux links both the primary and secondary windings?",
+        "opts": [
+          "Leakage flux",
+          "Mutual flux",
+          "Fringing flux",
+          "Stray flux"
+        ],
+        "ans": 1
+      }
+    ]
+  },
+  "4": {
+    "objective": "To study the speed-torque characteristics of a DC motor.",
+    "q": [
+      {
+        "q": "The speed of a DC motor is directly proportional to:",
+        "opts": [
+          "Back EMF",
+          "Flux",
+          "Armature current",
+          "Torque"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "In a DC Shunt Motor, the field flux is:",
+        "opts": [
+          "Proportional to armature current",
+          "Practically constant",
+          "Zero",
+          "Alternating"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "The starting current of a DC motor is high because:",
+        "opts": [
+          "Resistance is high",
+          "Back EMF is zero",
+          "Field flux is zero",
+          "Voltage is high"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "To reverse the direction of a DC motor, we must:",
+        "opts": [
+          "Reverse the supply voltage",
+          "Reverse either armature or field connections",
+          "Increase resistance",
+          "Decrease voltage"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which motor is best suited for traction applications?",
+        "opts": [
+          "DC Shunt Motor",
+          "DC Series Motor",
+          "Stepper Motor",
+          "Induction Motor"
+        ],
+        "ans": 1
+      }
+    ]
+  },
+  "5": {
+    "objective": "To simulate the equivalent circuit of a 3-phase Induction Motor and analyze its performance curve.",
+    "q": [
+      {
+        "q": "The synchronous speed of an induction motor depends on:",
+        "opts": [
+          "Voltage and Current",
+          "Frequency and Poles",
+          "Rotor resistance",
+          "Slip"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "At standstill, the slip of an induction motor is:",
+        "opts": [
+          "0",
+          "0.5",
+          "1",
+          "Infinity"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "An induction motor can never run exactly at synchronous speed because:",
+        "opts": [
+          "Friction is too high",
+          "Relative motion (slip) is required to induce rotor current",
+          "Voltage drops",
+          "Poles would cancel out"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Adding resistance to the rotor of a slip-ring motor:",
+        "opts": [
+          "Increases starting torque",
+          "Decreases starting torque",
+          "Increases speed",
+          "Causes overheating instantly"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "The power factor of an induction motor at no-load is typically:",
+        "opts": [
+          "Unity",
+          "Low lagging",
+          "Low leading",
+          "High lagging"
+        ],
+        "ans": 1
+      }
+    ]
+  },
+  "6": {
+    "objective": "To explore power electronics converters (Rectifier, Chopper, Inverter).",
+    "q": [
+      {
+        "q": "A rectifier converts:",
+        "opts": [
+          "DC to AC",
+          "AC to DC",
+          "AC to AC",
+          "DC to DC"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "An inverter converts:",
+        "opts": [
+          "DC to AC",
+          "AC to DC",
+          "AC to AC",
+          "DC to DC"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "PWM stands for:",
+        "opts": [
+          "Pulse Width Modulation",
+          "Power With Motors",
+          "Phase Width Modulation",
+          "Pulse Wave Modification"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "A step-down DC-DC converter is also known as a:",
+        "opts": [
+          "Boost Converter",
+          "Buck Converter",
+          "Cycloconverter",
+          "Inverter"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which device is commonly used for high-frequency switching?",
+        "opts": [
+          "Diode",
+          "Thyristor",
+          "IGBT/MOSFET",
+          "Relay"
+        ],
+        "ans": 2
+      }
+    ]
+  },
+  "7": {
+    "objective": "To model a Solar PV Cell and trace its I-V and P-V characteristics.",
+    "q": [
+      {
+        "q": "The point on the I-V curve where power is maximum is called:",
+        "opts": [
+          "Short Circuit",
+          "Open Circuit",
+          "Maximum Power Point (MPP)",
+          "Saturation Point"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "As temperature increases, the open-circuit voltage of a solar cell:",
+        "opts": [
+          "Increases",
+          "Decreases",
+          "Remains constant",
+          "Becomes zero"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "As solar irradiance increases, the short-circuit current:",
+        "opts": [
+          "Increases proportionally",
+          "Decreases proportionally",
+          "Remains constant",
+          "Fluctuates"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Fill Factor (FF) is defined as:",
+        "opts": [
+          "(Imp * Vmp) / (Isc * Voc)",
+          "(Isc * Voc) / (Imp * Vmp)",
+          "Voc / Isc",
+          "Imp / Isc"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Which material is most commonly used for commercial solar cells?",
+        "opts": [
+          "Copper",
+          "Silicon",
+          "Gallium Arsenide",
+          "Graphene"
+        ],
+        "ans": 1
+      }
+    ]
+  },
+  "8": {
+    "objective": "To simulate wind turbine power extraction using the Betz Limit.",
+    "q": [
+      {
+        "q": "The maximum theoretical efficiency of a wind turbine (Betz Limit) is:",
+        "opts": [
+          "100%",
+          "59.3%",
+          "33.3%",
+          "75.0%"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Power extracted from wind is proportional to the wind speed to the power of:",
+        "opts": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "The Tip Speed Ratio (TSR) is the ratio of:",
+        "opts": [
+          "Blade tip speed to wind speed",
+          "Wind speed to rotor speed",
+          "Blade length to wind speed",
+          "Rotor diameter to tower height"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "At very high wind speeds, wind turbines use this mechanism to prevent damage:",
+        "opts": [
+          "Yawing",
+          "Pitch control",
+          "Maximum Power Point Tracking",
+          "Freewheeling"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which generator type is most popular for variable-speed wind turbines?",
+        "opts": [
+          "DC Shunt",
+          "Synchronous",
+          "Doubly-Fed Induction Generator (DFIG)",
+          "Stepper"
+        ],
+        "ans": 2
+      }
+    ]
+  },
+  "9": {
+    "objective": "To model Smart Grid Demand Response and Battery Energy Storage optimization.",
+    "q": [
+      {
+        "q": "Demand Response refers to:",
+        "opts": [
+          "Adding more power plants",
+          "Adjusting consumer demand to match supply",
+          "Increasing grid voltage",
+          "Ignoring peak loads"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Energy Storage Systems (ESS) help in:",
+        "opts": [
+          "Peak shaving and load leveling",
+          "Increasing line losses",
+          "Creating voltage sags",
+          "Reducing power quality"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Time-of-Use (TOU) pricing encourages consumers to:",
+        "opts": [
+          "Use electricity during peak hours",
+          "Shift usage to off-peak hours",
+          "Stop using electricity entirely",
+          "Increase total consumption"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "State of Charge (SOC) of a battery indicates:",
+        "opts": [
+          "The remaining capacity as a percentage",
+          "The voltage level",
+          "The total lifespan",
+          "The internal resistance"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "The 'Duck Curve' problem in solar-heavy grids is caused by:",
+        "opts": [
+          "Overproduction of wind",
+          "Midday solar peak followed by evening demand ramp",
+          "Geese hitting power lines",
+          "Battery failures"
+        ],
+        "ans": 1
+      }
+    ]
+  },
+  "10": {
+    "objective": "To perform short-circuit fault analysis on a transmission network.",
+    "q": [
+      {
+        "q": "Which fault type is the most common in power systems?",
+        "opts": [
+          "Three-phase fault",
+          "Single Line-to-Ground (SLG)",
+          "Line-to-Line (LL)",
+          "Double Line-to-Ground (DLG)"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Which fault type is the most severe (highest fault current)?",
+        "opts": [
+          "Single Line-to-Ground",
+          "Three-phase symmetrical fault",
+          "Line-to-Line",
+          "Open circuit fault"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Symmetrical components are used to analyze:",
+        "opts": [
+          "Balanced systems only",
+          "Unbalanced faults",
+          "DC systems",
+          "Magnetic circuits"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Zero sequence currents can only flow if:",
+        "opts": [
+          "The system is delta connected",
+          "There is a ground return path",
+          "The fault is balanced",
+          "Voltage is over 100kV"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "The per-unit system simplifies fault analysis by:",
+        "opts": [
+          "Eliminating the need to reflect impedances across transformers",
+          "Removing all resistance",
+          "Ignoring reactive power",
+          "Converting AC to DC"
+        ],
+        "ans": 0
+      }
+    ]
+  },
+  "11": {
+    "objective": "To model Inverse Definite Minimum Time (IDMT) protective relay coordination.",
+    "q": [
+      {
+        "q": "In an IDMT relay, the operating time:",
+        "opts": [
+          "Is constant",
+          "Increases with fault current",
+          "Decreases as fault current increases",
+          "Depends on voltage"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Plug Setting Multiplier (PSM) is the ratio of:",
+        "opts": [
+          "Fault current to relay pickup current",
+          "Voltage to current",
+          "CT primary to CT secondary",
+          "Time dial to time setting"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Time Multiplier Setting (TMS) shifts the relay curve:",
+        "opts": [
+          "Horizontally",
+          "Vertically (changes operation time)",
+          "Inverts the curve",
+          "Changes the pickup current"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Relay coordination ensures that:",
+        "opts": [
+          "All relays trip simultaneously",
+          "The relay closest to the fault trips first",
+          "The generator relay trips first",
+          "No relays trip during a fault"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "A directional relay requires both current and:",
+        "opts": [
+          "Frequency",
+          "Temperature",
+          "Voltage for polarization",
+          "Resistance"
+        ],
+        "ans": 2
+      }
+    ]
+  },
+  "12": {
+    "objective": "To plot the V-Curves of a Synchronous Motor by varying field excitation.",
+    "q": [
+      {
+        "q": "A synchronous motor can operate at:",
+        "opts": [
+          "Lagging power factor only",
+          "Leading power factor only",
+          "Unity power factor only",
+          "Lagging, leading, or unity power factor"
+        ],
+        "ans": 3
+      },
+      {
+        "q": "An over-excited synchronous motor acts like a:",
+        "opts": [
+          "Resistor",
+          "Inductor",
+          "Capacitor",
+          "Battery"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "The V-Curve plots:",
+        "opts": [
+          "Armature current vs Field current",
+          "Power factor vs Field current",
+          "Torque vs Speed",
+          "Voltage vs Current"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "At the lowest point of the V-Curve, the power factor is:",
+        "opts": [
+          "Zero",
+          "0.5 Lagging",
+          "Unity (1.0)",
+          "0.5 Leading"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Under-excitation causes the motor to draw:",
+        "opts": [
+          "Leading reactive power",
+          "Lagging reactive power",
+          "Zero reactive power",
+          "Only active power"
+        ],
+        "ans": 1
+      }
+    ]
+  },
+  "13": {
+    "objective": "To design a capacitor bank for Power Factor Correction.",
+    "q": [
+      {
+        "q": "Power factor is defined as the ratio of:",
+        "opts": [
+          "Apparent Power to Active Power",
+          "Active Power to Apparent Power",
+          "Reactive Power to Active Power",
+          "Voltage to Current"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Installing a capacitor bank in parallel with an inductive load:",
+        "opts": [
+          "Increases active power consumption",
+          "Reduces total line current",
+          "Decreases motor speed",
+          "Increases total apparent power"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "The reactive power supplied by a capacitor is measured in:",
+        "opts": [
+          "kW",
+          "kVA",
+          "kVAR",
+          "Joules"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Over-correcting the power factor (leading) can cause:",
+        "opts": [
+          "Over-voltage on the system",
+          "Under-voltage",
+          "Reduced capacitance",
+          "Zero current"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "A poor power factor results in:",
+        "opts": [
+          "Lower utility bills",
+          "Higher I^2R line losses",
+          "Cooler transformers",
+          "Higher efficiency"
+        ],
+        "ans": 1
+      }
+    ]
+  },
+  "14": {
+    "objective": "To simulate the Ferranti Effect in a long transmission line.",
+    "q": [
+      {
+        "q": "The Ferranti Effect occurs when:",
+        "opts": [
+          "Receiving end voltage is higher than sending end voltage",
+          "Sending end voltage is higher",
+          "Current is maximum",
+          "Line is fully loaded"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "The Ferranti Effect is primarily caused by:",
+        "opts": [
+          "Line resistance",
+          "Line charging capacitance",
+          "Line inductance",
+          "Transformer leakage"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "The Ferranti Effect is most pronounced under which condition?",
+        "opts": [
+          "Heavy load",
+          "No load or light load",
+          "Short circuit",
+          "DC transmission"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "To mitigate the Ferranti Effect, utilities install:",
+        "opts": [
+          "Series capacitors",
+          "Shunt reactors (inductors)",
+          "Series resistors",
+          "Lightning arresters"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "The effect is most significant in:",
+        "opts": [
+          "Short lines (< 50 km)",
+          "Medium lines",
+          "Long lines (> 200 km)",
+          "Underground DC cables"
+        ],
+        "ans": 2
+      }
+    ]
+  },
+  "15": {
+    "objective": "To design a substation grounding grid using IEEE 80 standards for Step and Touch potentials.",
+    "q": [
+      {
+        "q": "Step potential is the voltage difference between:",
+        "opts": [
+          "A person's feet (1m apart)",
+          "A hand and a foot",
+          "Two hands",
+          "The equipment frame and earth"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Touch potential is the voltage difference between:",
+        "opts": [
+          "A person's feet",
+          "A grounded structure touched by hand and the feet",
+          "Two adjacent equipment frames",
+          "Phase wire and neutral"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "The primary purpose of a substation grounding grid is:",
+        "opts": [
+          "To carry load current",
+          "To provide a safe path for fault currents and ensure personnel safety",
+          "To step down voltage",
+          "To increase soil resistivity"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Adding a surface layer of crushed rock (gravel) in a substation:",
+        "opts": [
+          "Decreases contact resistance",
+          "Increases contact resistance of the feet, improving safety",
+          "Reduces soil drainage",
+          "Has no electrical effect"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "A grounding design is considered safe if:",
+        "opts": [
+          "Actual step/touch voltages are GREATER than tolerable limits",
+          "Actual step/touch voltages are LESS than tolerable limits",
+          "Grid resistance is infinity",
+          "Fault current is zero"
+        ],
+        "ans": 1
+      }
+    ]
+  },
+  "16": {
+    "objective": "To simulate the dynamics and energy consumption of an Electric Vehicle powertrain.",
+    "q": [
+      {
+        "q": "The total tractive effort required to move an EV includes:",
+        "opts": [
+          "Rolling resistance, aerodynamic drag, and acceleration force",
+          "Only aerodynamic drag",
+          "Battery internal resistance",
+          "Motor winding resistance"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Regenerative braking allows the EV to:",
+        "opts": [
+          "Use brakes to generate heat",
+          "Convert kinetic energy back into electrical energy",
+          "Discharge the battery faster",
+          "Increase aerodynamic drag"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "At highway speeds, the dominant force opposing vehicle motion is:",
+        "opts": [
+          "Rolling resistance",
+          "Aerodynamic drag",
+          "Grade resistance",
+          "Static friction"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "The unit of battery capacity in an EV is typically measured in:",
+        "opts": [
+          "Volts",
+          "Amperes",
+          "Kilowatt-hours (kWh)",
+          "Farads"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Motor efficiency in an EV powertrain is typically around:",
+        "opts": [
+          "30%",
+          "50%",
+          "90%+",
+          "100%"
+        ],
+        "ans": 2
+      }
+    ]
+  },
+  "17": {
+    "objective": "To simulate high voltage dielectric breakdown and verify Paschen's Law.",
+    "q": [
+      {
+        "q": "Paschen's Law states that breakdown voltage is a function of:",
+        "opts": [
+          "Temperature and Volume",
+          "Pressure and Gap Distance (p*d)",
+          "Voltage and Current",
+          "Humidity and Altitude"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "At the Paschen minimum, the breakdown voltage is:",
+        "opts": [
+          "Maximum",
+          "Zero",
+          "At its lowest possible value",
+          "Infinity"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "If the gap distance is decreased below the Paschen minimum, the breakdown voltage:",
+        "opts": [
+          "Decreases",
+          "Increases drastically",
+          "Remains constant",
+          "Drops to zero"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "SF6 gas is preferred in high voltage switchgear because:",
+        "opts": [
+          "It is highly electronegative and quenches arcs effectively",
+          "It is lighter than air",
+          "It is highly flammable",
+          "It conducts electricity well"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "Dielectric breakdown occurs when:",
+        "opts": [
+          "Voltage drops to zero",
+          "An electron avalanche creates a conductive plasma channel",
+          "The insulator becomes perfectly pure",
+          "Resistance approaches infinity"
+        ],
+        "ans": 1
+      }
+    ]
+  },
+  "18": {
+    "objective": "To analyze transient stability of a generator using the Equal Area Criterion.",
+    "q": [
+      {
+        "q": "The Swing Equation describes the dynamics of the:",
+        "opts": [
+          "Transformer core",
+          "Transmission line",
+          "Generator rotor",
+          "Relay contacts"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "During a severe short-circuit fault, the electrical power output of the generator:",
+        "opts": [
+          "Drops significantly",
+          "Increases rapidly",
+          "Remains constant",
+          "Matches mechanical power exactly"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "According to the Equal Area Criterion, a system is stable if:",
+        "opts": [
+          "Accelerating area > Decelerating area",
+          "Accelerating area = Decelerating area",
+          "Accelerating area < Decelerating area",
+          "Area = 0"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Critical Clearing Time (CCT) is:",
+        "opts": [
+          "The fastest time a breaker can open",
+          "The maximum time a fault can persist without the system losing synchronism",
+          "The time taken for voltage to reach zero",
+          "The time to close a breaker"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Higher generator inertia (H):",
+        "opts": [
+          "Decreases stability margin",
+          "Increases critical clearing time (improves stability)",
+          "Has no effect",
+          "Causes immediate loss of synchronism"
+        ],
+        "ans": 1
+      }
+    ]
+  },
+  "19": {
+    "objective": "To calculate voltage drop and power losses along a radial distribution feeder.",
+    "q": [
+      {
+        "q": "In a radial distribution feeder, voltage is usually lowest at:",
+        "opts": [
+          "The substation",
+          "The middle of the line",
+          "The far end of the line",
+          "The generator"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Voltage drop along a feeder is primarily caused by:",
+        "opts": [
+          "Line impedance (R + jX) and load current",
+          "Insulator leakage",
+          "Transformer turns ratio",
+          "Frequency fluctuations"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "A common method to boost voltage at the end of a long feeder is:",
+        "opts": [
+          "Installing a shunt reactor",
+          "Installing shunt capacitors or a voltage regulator",
+          "Decreasing wire diameter",
+          "Adding more load"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Distribution line losses are proportional to:",
+        "opts": [
+          "Current",
+          "Square of the current (I^2)",
+          "Square root of voltage",
+          "Frequency"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Utilities typically maintain distribution voltage within:",
+        "opts": [
+          "± 1%",
+          "± 5%",
+          "± 20%",
+          "± 50%"
+        ],
+        "ans": 1
+      }
+    ]
+  },
+  "20": {
+    "objective": "To tune a PID controller for optimal DC motor speed regulation.",
+    "q": [
+      {
+        "q": "The Proportional (P) term in a PID controller:",
+        "opts": [
+          "Eliminates steady-state error",
+          "Produces an output proportional to the current error",
+          "Predicts future error",
+          "Acts as a low-pass filter"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "To eliminate steady-state error, which term is essential?",
+        "opts": [
+          "Proportional",
+          "Derivative",
+          "Integral",
+          "Feed-forward"
+        ],
+        "ans": 2
+      },
+      {
+        "q": "Increasing the Derivative (D) gain generally helps to:",
+        "opts": [
+          "Increase overshoot",
+          "Dampen the system and reduce overshoot",
+          "Increase steady-state error",
+          "Make the system unstable immediately"
+        ],
+        "ans": 1
+      },
+      {
+        "q": "Integral Windup occurs when:",
+        "opts": [
+          "The error integrates to a massive value due to actuator saturation",
+          "The motor spins too fast",
+          "The proportional gain is zero",
+          "Derivative gain is too high"
+        ],
+        "ans": 0
+      },
+      {
+        "q": "A perfectly tuned PID response should have:",
+        "opts": [
+          "Infinite settling time",
+          "Massive overshoot",
+          "Fast rise time, minimal overshoot, and zero steady-state error",
+          "High steady-state error"
+        ],
+        "ans": 2
+      }
+    ]
+  }
+}
